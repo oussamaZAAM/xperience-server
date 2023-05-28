@@ -55,8 +55,6 @@ const filterReviews = (req, res) => {
   // Get the query parameters from the request
   const { appID, appStoreName, rating, countryName } = req.query;
 
-  console.log(appID)
-
   // Perform filtering based on the provided criteria
   // Assuming you have a "reviews" table in your database
 
